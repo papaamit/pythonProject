@@ -7,7 +7,7 @@ class UserMainCode(object):
         match = re.search(pattern,str)
         if match:
             print(True)
-        else:print(False)
+        else:print(None)
 
 
 
